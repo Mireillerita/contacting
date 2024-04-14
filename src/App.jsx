@@ -9,12 +9,12 @@ import AddContact from './components/contacts/addContact/AddContact';
 import ViewContact from './components/contacts/viewContact/ViewContact';
 import EditContact from './components/contacts/editContact/EditContact';
 import LandingPage from './components/contacts/landingPage/LandingPage';
-import FetchData from './components/FetchData';
+
 
 import './App.css'
 
 function App() {
-  <FetchData/>
+
   const [count, setCount] = useState(0)
 
   return (
