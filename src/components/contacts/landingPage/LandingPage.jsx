@@ -29,7 +29,7 @@ const LandingPage = () => {
             <div className="grid grid-cols-2 grid-rows-3 mx-32 my-12 ">
               {contacts.map(contact => (
              <Link to="/contacts/view/:contactId"> <div  className="bg-cyan-200  mx-4 my-4 rounded-lg">
-                  <h1 ><span className="font-bold">Name:</span> <span className="text-[18px]">{contact.title}</span></h1>
+                  <h1 ><span className="font-bold">Name:</span> <span className="text-[18px]">{contact.fullName}</span></h1>
                   <p><span className="font-bold">Email:</span> {contact.email}</p>
                   <h2><span className="font-bold">Telephone:</span> {contact.price}</h2>
                   <h2><span className="font-bold">Location:</span> {contact.location}</h2>
